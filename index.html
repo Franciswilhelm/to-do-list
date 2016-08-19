@@ -11,15 +11,18 @@
   <body>
     <div class="container">
       <h1 class="well text-center">Ping Pong</h1>
-      <form id="NAME_form" class="" action="index.html" method="post">
-        <div>
-          <input id="NAME_input" type="number" placeholder="placeholder" autofocus="autofocus">
+      <form id="pong_form" class="" action="index.html" method="post">
+        <div class="form-group">
+          <input id="num_input" required type="number" name="name" value="5" class="format-control" placeholder="placeholder" autofocus="autofocus">
           <br>
           <button type="submit" class="btn btn-success sm-space-above">Give Output!</button>
         </div>
       </form>
       <div class="">
-        <h4 id="NAME_output">Sample Output</h4>
+        <ul id="pong_output">
+          
+        </ul>
+
       </div>
 
     </div>
