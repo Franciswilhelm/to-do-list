@@ -1,9 +1,15 @@
 //Business Logic
 var textList = [];
+var ping3 = "ping";
+var pong5 = "pong";
+var pingPong15 = "ping-pong"
 
 function numList(number) {
   for (var i = 1; i <= number; i++) {
     textList.push(i);
+    if (i % 3 === 0) {
+      textList.splice(i, 1, ping3);
+    }
     console.log(textList);
   }
   return(textList);
@@ -16,7 +22,7 @@ $(document).ready(function() {
     var startNum = parseInt($("#num_input").val());
     var output = numList(startNum)
 
-    function writeUl(){
+    function arrayToList(){
       var nums = "";
       for (var i = 0; i < textList.length; i++) {
         nums += "<li>" + textList[i] + "</li>";
@@ -24,6 +30,6 @@ $(document).ready(function() {
       }
       $("#pong_output").append(nums);
     }
-    writeUl(textList);
+    arrayToList(textList);
   });
 });
