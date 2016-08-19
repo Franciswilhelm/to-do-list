@@ -1,13 +1,15 @@
-# _{Application Name}_
+# _Ping Pong_
 
-#### _Brief Description_ {Current Date}_
+#### _Ping Pong Site_ {08-19-2016}_
 
 #### By _**Caleb Paul**_
 
 ## Description
 
-_Detailed Description_
-
+_Program will output numbers from one up to a user given interval_
+_Numbers divisible by 3 are replaced with "ping"_
+_Numbers divisible by 5 are replaced with "pong"_
+_Numbers divisible by 15 are replaced with "ping-pong"_
 ## Setup/Installation Requirements
 
 * _Clone this repository to your desktop_
@@ -19,6 +21,10 @@ _You must host this webpage locally_
 
 _None yet_
 
+##Specifications
+
+
+
 ## Support and contact details
 
 _Caleb Paul: calebpaul21@gmail.com_
@@ -26,8 +32,7 @@ _Caleb Paul: calebpaul21@gmail.com_
 ## Technologies Used
 
 _Javascript_
-__
-__
+_jQuery_
 
 ### License
 
