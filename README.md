@@ -12,10 +12,10 @@ _Numbers divisible by 5 are replaced with "pong"_
 _Numbers divisible by 15 are replaced with "ping-pong"_
 ## Setup/Installation Requirements
 
-* _Clone this repository to your desktop_
+* _Clone this repository (https://github.com/CalebPaul/ping-pong.git) to your desktop_
 * _Open index.html in the browser of your choosing_
 
-_You must host this webpage locally_
+* _Alternatively, navigate to https://calebpaul.github.io/ping-pong/_
 
 ## Known Bugs
 
