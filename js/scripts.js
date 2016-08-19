@@ -1,10 +1,8 @@
 //Business Logic
-var range = 0;
 var textList = [];
 
 function numList(number) {
   for (var i = 1; i <= number; i++) {
-    range = i;
     textList.push(i);
     console.log(textList);
   }
