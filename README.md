@@ -29,6 +29,7 @@ A single number  |2| 1 2 (program should count up from one to 2, with each numbe
 number(s) in list that are divisible by 3|3| 1 2 ping
 number(s) in list that are divisible by 5| 1 2 3 4 5| 1 2 ping 4 pong
 number(s) in list that are divisible by 15 | ..13 14 15 | 13 14 ping-pong
+a new number entered | 3 | 1 2 ping (program should clear original list, and display new list based on most recent input)
 
 
 ## Support and contact details

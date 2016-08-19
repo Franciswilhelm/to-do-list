@@ -16,7 +16,6 @@ function numList(number) {
     } else if (i % 3 === 0) {
       textList.splice(i, 1, ping3)
     }
-    console.log(textList);
   }
   return(textList.splice(0, 1));
 }
@@ -31,7 +30,6 @@ $(document).ready(function() {
       var nums = "";
       for (var i = 0; i < textList.length; i++) {
         nums += "<li>" + textList[i] + "</li>";
-        console.log(nums)
       }
       $("#pong_output").empty().append(nums);
     }
