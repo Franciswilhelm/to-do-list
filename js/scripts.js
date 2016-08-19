@@ -18,7 +18,7 @@ $(document).ready(function() {
     var startNum = parseInt($("#num_input").val());
     var output = numList(startNum)
 
-    function frontEnd(){
+    function writeUl(){
       var nums = "";
       for (var i = 0; i < textList.length; i++) {
         nums += "<li>" + textList[i] + "</li>";
@@ -26,6 +26,6 @@ $(document).ready(function() {
       }
       $("#pong_output").append(nums);
     }
-    frontEnd(textList);
+    writeUl(textList);
   });
 });
