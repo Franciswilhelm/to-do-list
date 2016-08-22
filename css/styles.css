@@ -2,6 +2,15 @@
   width: 85%;
 }
 
+.complete {
+  text-decoration: line-through;
+}
+
+.red {
+  color: red;
+}
+
 li {
   list-style: none;
+  font-size: 18px;
 }

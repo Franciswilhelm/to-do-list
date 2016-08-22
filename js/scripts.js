@@ -2,7 +2,6 @@
 function ToDo(priorityItems, items) {
   this.priorityItems = priorityItems;
   this.items = items;
-  // this.completed = false;
 }
 
 //User Logic
@@ -18,7 +17,14 @@ $(document).ready(function() {
     console.log(userPriorityItem);
     console.log(newToDo);
 
-    $("#ul-list").prepend("<li><strong><span>" + newToDo.priorityItems + "</span></strong></li>");
-    $("#ul-list").append("<li><span>" + newToDo.items + "</span></li>");
+    $("#ul-list").prepend("<li><strong><span class='strike red'>" + newToDo.priorityItems + "</span></strong></li>");
+    $("#ul-list").append("<li><span class='strike'>" + newToDo.items + "</span></li>");
+
+    $("input#new-priority-item").val("");
+    $("input#new-item").val(" ");
+
+    $(".strike").click(function () {
+      $(this).addClass("complete");
+    });
   });
 });
