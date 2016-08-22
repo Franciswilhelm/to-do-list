@@ -1,3 +1,7 @@
 .container {
   width: 85%;
 }
+
+li {
+  list-style: none;
+}
