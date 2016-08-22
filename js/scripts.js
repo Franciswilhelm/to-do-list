@@ -9,9 +9,8 @@ function ToDo(priorityItems, items) {
 $(document).ready(function() {
   $("form#new-form").submit(function() {
     event.preventDefault();
-
-    var userPriorityItem = ("input#new-priority-item").val();
-    var userItem = ("input#new-item").val();
+    var userPriorityItem = $("input#new-priority-item").val();
+    var userItem = $("input#new-item").val();
 
     var newToDo = new ToDo(userPriorityItem, userItem);
 
@@ -19,7 +18,7 @@ $(document).ready(function() {
     console.log(userPriorityItem);
     console.log(newToDo);
 
-    $("#ul-list").prepend("<li><span>" + newToDo.userPriorityItem + "</span></li>");
-    $("#ul-list").append("<li><span>" + newToDo.userItem + "</span></li>");
+    $("#ul-list").prepend("<li><strong><span>" + newToDo.priorityItems + "</span></strong></li>");
+    $("#ul-list").append("<li><span>" + newToDo.items + "</span></li>");
   });
 });
